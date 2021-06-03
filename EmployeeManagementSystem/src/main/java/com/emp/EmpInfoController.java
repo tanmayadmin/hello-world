@@ -14,6 +14,7 @@ public class EmpInfoController {
 		List<Employee> empList = new ArrayList<Employee>();
 		empList.add(new Employee("100","Tanmay"));
 		empList.add(new Employee("200","Sujit"));
+		empList.add(new Employee("300","Ayan"));
 		return empList;
 		
 	}
